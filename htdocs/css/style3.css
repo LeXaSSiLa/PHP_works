@@ -1,0 +1,95 @@
+html{
+	
+	background: #003f78;
+}
+
+.quit{
+	text-align: right;
+	float: right;
+	font-size: 20px;
+	color:#c7fffe;
+}
+.lenta {
+	
+	text-align:right;
+	color:#fff899;
+    width:90%;
+    max-width: 700px;
+	height: 100%;
+    margin: 0 auto;
+    border-radius: 24px;
+    background: #86269b;
+    padding: 50px;
+    margin-top: 90px;
+	font-size: 20px;
+	color: #c7fffe;
+	font-family: times new roman;
+	
+	
+    background: rgba( 255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37);
+    backdrop-filter: blur( 6.0px);
+    -webkit-backdrop-filter: blur( 6.0px);
+    border-radius: 20px;
+    border: 1px solid rgba( 255, 255, 255, 0.18);
+	
+	
+}
+input{
+	border: 2px solid #00284d;
+	border-radius: 7px;	
+	width:100%;
+	height: 40px;
+	margin-top:15px;
+}
+button{
+	width:30%;
+	border: 2px solid #00284d;
+	border-radius: 7px;	
+	height:31px;
+	margin-top:25px;
+	float: right;
+}
+button:hover{
+	border-radius: 7px;
+    background: #c7fffe;
+    box-shadow: inset 5px 5px 10px #bababa, inset -5px -5px 10px #ffffff;
+}
+input[type=submit]:hover {
+    border-radius: 7px;
+    background: #c7fffe;
+    box-shadow: inset 5px 5px 10px #bababa, inset -5px -5px 10px #ffffff;
+}
+	fieldset{
+	margin-top:15px;
+	border: 2px solid #00284d;
+}
+a:hover {
+	color:#c7fffe;
+}
+a{
+	
+	
+	color:#00284d;
+	text-decoration: none;
+}
+h3{
+	
+	font-size:50px;
+	text-align:center;
+	color: #c7fffe;
+	height:70px;
+	background: rgba( 255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37);
+    border: 1px solid rgba( 255, 255, 255, 0.18);
+	
+	font-family: times new roman;
+	
+	
+}
+.h2{
+	margin-top:70px;
+	font-size:40px;
+	text-align:center;
+	color: #c7fffe;
+}

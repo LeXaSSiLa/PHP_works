@@ -1,0 +1,91 @@
+
+body {
+	
+	text-align: left;
+	color:#fff899;
+    width:90%;
+    max-width: 800px;
+	height: 500px;
+    margin: 0 auto;
+    border-radius: 24px;
+    background: #86269b;
+    padding: 50px;
+    margin-top: 30px;
+	font-size: 48px;
+	color: #c7fffe;
+	
+	
+    background: rgba( 255, 255, 255, 0.10);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37);
+    backdrop-filter: blur( 6.0px);
+    -webkit-backdrop-filter: blur( 6.0px);
+    border-radius: 20px;
+    border: 1px solid rgba( 255, 255, 255, 0.18);
+	
+	background-image:url("http://localhost:8888/img/mir.jpg");
+	background-size: 110% 130%;
+}
+input[name=login], input[name=password]{
+	border: 2px solid #00284d;
+	border-radius: 7px;	
+	width: 48%;
+	height: 40px;
+	
+	
+}
+input[name=but1]{
+	border-radius: 7px;
+	width: 50%;
+	border: 2px solid #00284d;
+	height: 31px;
+	float: right;
+}
+input[name=but]{
+	border-radius: 7px;
+	margin-top: 29px;
+	width: 100%;
+	border: 2px solid #00284d;
+	height: 31px;
+}
+
+input[type=submit]:hover{
+    border-radius: 7px;
+    background: #c7fffe;
+    box-shadow: inset 5px 5px 10px #bababa, inset -5px -5px 10px #ffffff;
+	color:#00b1d4;
+}
+input[type=button]:hover {
+    border-radius: 7px;
+    background: #c7fffe;
+    box-shadow: inset 5px 5px 10px #bababa, inset -5px -5px 10px #ffffff;
+	color:#00b1d4;
+}
+fieldset{
+	margin-top:15px;
+	border: 2px solid #00284d;
+}
+a:hover {
+    border-radius: 7px;
+    background: #c7fffe;
+    box-shadow: inset 5px 5px 10px #bababa, inset -5px -5px 10px #ffffff;
+	color:#00b1d4;
+}
+a{
+	
+	text-align: right;
+	color:#c7fffe;
+	text-decoration: none;
+}
+
+p
+{
+	text-align: left;
+	margin: 0 auto;
+	padding: 5px;
+}
+h3{
+	font-size: 22px;
+}
+h2{
+	font-size: 20px;
+}
