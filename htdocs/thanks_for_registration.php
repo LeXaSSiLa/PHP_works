@@ -16,18 +16,14 @@
         exit;
     }
 ?>
-<!-- регистрация. если что-то не так, то ничего не меняется, если норм, то го на форму -->
     <?php
 
-        //* get _POST data
         $login = trim($_POST['login']);
         $passwrd = $_POST['password'];
 
-        //* try found similar logins
         $result = $mysqli->query("SELECT COUNT(*) FROM `users` WHERE lower(`Login`) = lower('$login')");
         $row = $result->fetch_assoc();
         
-        //* if similar logins not found, insert login and password, else display error message
         if(0 == $row['COUNT(*)']){
 			if(strlen($login) > 0 AND strlen($passwrd) > 0 ){
 				$result = $mysqli->query("INSERT INTO `users`(`Login`, `Password`) VALUES ('$login','$passwrd')");
