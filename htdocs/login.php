@@ -10,7 +10,6 @@
 </head>
 
 <body class="text-center">
-<!-- проверка на наличие куки. если есть то переходим автоматически в ленту -->
     <?
         if(isset($_COOKIE['Login'])){
             header("Location: http://localhost:8888/news.php");
